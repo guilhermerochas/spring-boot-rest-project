@@ -5,7 +5,7 @@
 First you have to build the image from the dockerfile
 
 ```bash
-  docker build -t <your_name>/<pg_image_name>:1.0 -f ./docker/postgres.DOCKERFILE
+  docker build -t <your_name>/<pg_image_name>:1.0 -f ./docker/postgres.DOCKERFILE .
 ```
 
 Once the image is built, you can run the container with
